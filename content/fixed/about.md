@@ -21,7 +21,7 @@ title = "about"
 ### Momentum(2014-2017): Co-founder, CTO
 
 - Ad verfication service(Brand safety, Ad fraud protection): Go, JavaScript, Python, AWS, GCP(BigQuery)
-- [Sold to KDDI group company](https://jp.techcrunch.com/2017/07/26/syndot-momentum/)
+- [Acquisition by KDDI group company](https://jp.techcrunch.com/2017/07/26/syndot-momentum/)
 
 ### JustSystems(2013): Software engineer
 
