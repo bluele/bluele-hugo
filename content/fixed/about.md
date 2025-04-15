@@ -1,70 +1,71 @@
 ---
 title: "about"
-date: 2021-10-04T00:12:19+09:00
+date: 2025-04-15T00:00:00+09:00
 draft: false
 ---
 
-I'm a hacker and entrepreneur. I have been generalizing complex problems and developing various frameworks and middleware to solve them. I can not only develop cutting edge technologies, but also use these technologies to develop products that solve real world problems.
+I'm a hacker and entrepreneur. I specialize in abstracting complex problems and building frameworks and middleware to solve them. My expertise spans from developing cutting-edge technologies to applying them in real-world products that address practical challenges.
 
-## Professional experience
+## Professional Experience
 
-### Datachain(2018-): Co-founder, CTO, Blockchain engineer
+### Datachain (2018–Present): Co-founder, CTO, Research Engineer
 
-- Lead research and development in blockchain interoperability
-- Design and development in PoC with partner companies
-- See the project details "Media" section.
+- Leading research and development in blockchain interoperability, with a particular focus on IBC, light client algorithms, and middleware enabling cost-effective on-chain light client verification
+- Supporting the development of [TOKI](https://toki.finance/), a cross-chain token transfer protocol, by providing core infrastructure and technical design based on IBC and LCP
+- Designing and developing PoCs in collaboration with partner companies (e.g., Progmat, MUTB, Toyota Financial Services, NTT DATA, etc.)
+- See the “Media” section for notable project coverage
 
-The following is a representative list of projects:
+Representative projects include:
 
-- [Hyperledger YUI](https://github.com/hyperledger-labs/?q=yui-): DLT/Blockchain interoperability framework (Especially, I developed Ethereum, Fabric, and IBC Relayer)
-- [Cross Framework](https://github.com/datachainlab/cross): A framework empowers the development of smart contracts that support cross-chain transactions.
-- [Hypermint](https://github.com/datachainlab/hypermint): Blockchain supports WASM-based smart contract
-- Plasma chain(Ethereum L2 scaling solution): Solidity, Golang, Tendermint
+- [LCP](https://github.com/datachainlab/lcp): A proxy middleware that enables light client verification using Trusted Execution Environments (TEE)
+- [zkDCAP](https://github.com/datachainlab/zkdcap): A zero-knowledge proof-based Intel SGX DCAP quote verification system
+- [Hyperledger YUI](https://github.com/hyperledger-labs/?q=yui-): An implementation of the IBC (Inter-Blockchain Communication) protocol for Ethereum and other enterprise blockchains
+- [Cross Framework](https://github.com/datachainlab/cross): A framework for building smart contracts that support cross-chain transactions via IBC
+- [Hypermint](https://github.com/datachainlab/hypermint): A Tendermint-based blockchain supporting WASM smart contracts
+- Ethereum L2 Plasma chain: Developed using Solidity, Golang, and Tendermint
 
-### Freelance
+### Freelance: Lead Engineer
 
-Developed backend systems in adtech domain. Mainly designed and developed the backend of systems that can handle high traffic.
+Worked on backend systems in the adtech industry, primarily focused on building and scaling infrastructure to handle high-traffic environments.
 
-- A high-traffic ad server(over 100,000rps): Golang, Aerospike, AWS, Jenkins, Ansible, etc.
-- Developed a batch system that transfers large ad tracking logs: Golang, Fluentd, [go-flow](https://github.com/bluele/go-flow)
+- High-performance ad server (>100,000 RPS): Built with Golang, Aerospike, AWS, Jenkins, Ansible, etc.
+- Large-scale ad log batch processing: Implemented with Golang, Fluentd, and [go-flow](https://github.com/bluele/go-flow)
 
-### Momentum(2014-2017): Co-founder, CTO
+### Momentum (2014–2017): Co-founder, CTO
 
-Developed the Ad verification service to protect advertisers from reputation risks when serving ads, and introduced it to DSP and Ad networks.
+Developed and launched an ad verification service to protect advertisers from brand risk. Successfully integrated the service with DSPs and ad networks.
 
-- Ad verfication service(Brand safety, Ad fraud protection): Go, JavaScript, Python, AWS, GCP(BigQuery)
-- Developed a batch system that enables crawling tens of millions of URLs per hour.
-- Implemented a classifier for categorizing web pages in cooperation with a laboratory at Tokyo Institute of Technology.
-- [Acquired by KDDI group company](https://jp.techcrunch.com/2017/07/26/syndot-momentum/)
+- Ad verification platform (brand safety, ad fraud detection): Go, JavaScript, Python, AWS, GCP (BigQuery)
+- Designed a batch system capable of crawling tens of millions of URLs per hour
+- Built a content classification system in collaboration with a laboratory at Tokyo Institute of Technology
+- [Acquired by a KDDI Group company](https://jp.techcrunch.com/2017/07/26/syndot-momentum/)
 
-### JustSystems(2013): Software engineer
+### JustSystems (2013): Software Engineer
 
-- Researched and developed an application of similar image retrieval as an experimental project for new graduates: Python, OpenCV, Apache Solr
-- Developed a backend system for social commerce service: Java, Scala, Play Framework, PostgreSQL, Redis, AWS, etc.
+- Built backend systems for an ecommerce: Java, Scala, Play Framework, PostgreSQL, Redis, AWS
+- Conducted research and development on similar-image retrieval systems as an experimental project: Python, OpenCV, Apache Solr
 
-## OSS (Only as founder)
+## Open Source (As Founder)
 
-The following lists are only as founder. Other contributions can be checked in my github account: https://github.com/bluele
+The following are projects I initiated. For additional contributions, please visit my GitHub: https://github.com/bluele
 
-- [Cross Framework](https://github.com/datachainlab/cross): A framework that enables the development of smart contracts that support Cross-chain transaction.
-- [gcache](https://github.com/bluele/gcache): In-memory cache library supports many eviction policies. Used by [many companies and projects](https://github.com/search?l=&o=desc&q=github.com%2Fbluele%2Fgcache+language%3AGo&s=indexed&type=Code).
-- [hypermint](https://github.com/datachainlab/hypermint): Blockchain supports WASM-based smart contract
-- [redis-semaphore](https://github.com/bluele/redis-semaphore): A distributed semaphore and mutex built on Redis. 
-- [factory-go](https://github.com/bluele/factory-go): A library for setting up Golang objects.
-- [Many other projects](https://github.com/bluele?tab=repositories)
+- [gcache](https://github.com/bluele/gcache): In-memory cache library supporting various eviction strategies; [widely adopted](https://github.com/search?l=&o=desc&q=github.com%2Fbluele%2Fgcache+language%3AGo&s=indexed&type=Code)
+- [hypermint](https://github.com/datachainlab/hypermint): WASM-compatible blockchain built on Tendermint
+- [redis-semaphore](https://github.com/bluele/redis-semaphore): Distributed semaphore and mutex implementation using Redis
+- [factory-go](https://github.com/bluele/factory-go): A factory pattern library for setting up Golang objects
+- [More on GitHub](https://github.com/bluele?tab=repositories)
 
-## Miscellaneous
+## Technical Skills
 
-### Technology
+- **Programming Languages**: Rust, Go, C, Python, JavaScript
+- **Confidential Computing**: Intel SGX
+- **Databases**: MySQL, Redis, Aerospike
+- **Blockchain**: Ethereum, Tendermint, Cosmos-SDK, IBC
+- **Cloud Platforms**: AWS, Azure, GCP
 
-- Programming Languages: Go, Rust, C, Python, JavaScript
-- Database: MySQL, Redis, Aerospike
-- DLT/Blockchain: Hyperledger Fabric, Ethereum, Tendermint, Cosmos-SDK, IBC
-- Public cloud: mostly AWS, sometimes GCP
-- Others: Implemetations of DLT/Blockchain, Consensus engine, distributed algorithms
+## Media Coverage
 
-### Media
-
-- [Meet YUI, one of the new Hyperledger Labs taking on cross-chain and off-chain operations](https://www.hyperledger.org/blog/2021/06/09/meet-yui-one-the-new-hyperledger-labs-projects-taking-on-cross-chain-and-off-chain-operations)
-- [Cross Framework was featured in Nikkei xTECH](https://xtech.nikkei.com/atcl/nxt/column/18/00001/04861/)
-- Hypermint was used in PoC with Toyota Financial Services: https://prtimes.jp/main/html/rd/p/000000001.000055051.html
+- [An introduction of ZK-IBC implementation](https://ibcprotocol.dev/blog/zkibc-toki)
+- [Meet YUI, a Hyperledger Lab tackling cross-chain and off-chain challenges](https://www.hyperledger.org/blog/2021/06/09/meet-yui-one-the-new-hyperledger-labs-projects-taking-on-cross-chain-and-off-chain-operations)
+- [Cross Framework featured in Nikkei xTECH](https://xtech.nikkei.com/atcl/nxt/column/18/00001/04861/)
+- [Hypermint used in a PoC with Toyota Financial Services](https://prtimes.jp/main/html/rd/p/000000001.000055051.html)
